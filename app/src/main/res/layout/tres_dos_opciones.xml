@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:id="@+id/view_root">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:animateLayoutChanges="true"
+            android:id="@+id/view_1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="center"
+                android:src="@mipmap/fondeador"
+                android:id="@+id/image_1" />
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Medium Text"
+                android:gravity="center"
+                android:textColor="@color/grisclaro"
+                android:textStyle="bold"
+                android:layout_weight="3"
+                    android:id="@+id/txt_1" />
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:animateLayoutChanges="true"
+            android:id="@+id/view_2">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="center"
+                android:src="@mipmap/inversionista"
+                android:id="@+id/image_2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Medium Text"
+                android:gravity="center"
+                android:textColor="@color/grisclaro"
+                android:textStyle="bold"
+                android:layout_weight="3"
+                android:id="@+id/txt_2" />
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:animateLayoutChanges="true"
+            android:id="@+id/view_3">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="center"
+                android:src="@mipmap/inversionista"
+                android:id="@+id/image_3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Medium Text"
+                android:gravity="center"
+                android:textColor="@color/grisclaro"
+                android:textStyle="bold"
+                android:layout_weight="3"
+                android:id="@+id/txt_3" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:animateLayoutChanges="true"
+            android:id="@+id/view_4">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="center"
+                android:src="@mipmap/inversionista"
+                android:id="@+id/image_4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Medium Text"
+                android:gravity="center"
+                android:textColor="@color/grisclaro"
+                android:textStyle="bold"
+                android:layout_weight="3"
+                android:id="@+id/txt_4" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

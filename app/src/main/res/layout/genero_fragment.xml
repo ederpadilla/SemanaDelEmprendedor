@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3">
+
+        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Tu edad"
+            app:met_floatingLabel="normal"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/hombre"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/hombre"
+                android:layout_weight="10" />
+
+
+            <LinearLayout
+                android:layout_weight="10"
+
+                android:layout_width="300dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/interrogante"
+                    android:layout_gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@mipmap/interrogante"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="10"
+                    />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/hombre"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/grisclaro"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_weight="10"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/mujer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/mujer"
+                android:layout_weight="10" />
+            <LinearLayout
+                android:layout_weight="10"
+
+                android:layout_width="300dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/interrogante1"
+                    android:layout_gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@mipmap/interrogante"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="10"
+                    />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/mujer"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/grisclaro"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_weight="10" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

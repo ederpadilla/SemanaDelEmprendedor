@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">SemanaDelEmprendedor</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="terminar">Terminar</string>
+
+    <string name="title_cap_emp">Capital Emprendedor</string>
+    <string name="comzar_bt">Comenzar registro</string>
+    <string name="definicion_altoimpacto">Son modelos de negocio replicables a nivel global basados en innovación (coomponente de diferenciación en su sector).Genera valor en 360° para sus socios, trabajadores, clientes y comunidad.</string>
+    <string name="definicion_tradicional">Ideas o Empresas donde únicamente se persigue un fin económico (Generación de riqueza y empleo).Su modelo de negocio no es replicable y cuenta con muy poca innovación </string>
+
+    <string name="edad_pregunta">¿Cuál es tu edad?</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+
+    <string name="eres_pregunta">¿Qué eres?</string>
+    <string name="emprendedor">Emprendedor</string>
+    <string name="estudiante">Estudiante</string>
+    <string name="fondedador">Fondeador</string>
+    <string name="invercionista">Invercionista</string>
+
+    <string name="buscas_pregunta">¿Qué buscas?</string>
+    <string name="buscas_p1">¿Buscas apoyar un proyecto y recibir rendimientos?</string>
+    <string name="buscas_p2">¿Buscas invertir en una empresa a cambio de un % accionario?</string>
+    <string name="buscas_p3">¿Buscas apoyar proyectos a cambio de beneficios no financieros?</string>
+    <string name="buscas_p4">¿Buscas apoyar un proyecto o iniciativas sin esperar nada a cambio?</string>
+
+
+    <string name="donacion_salida">Favor de pasar a una plataforma de Donacion</string>
+    <string name="recompensa_salida">Favor de pasar a una plataforma de Recompensa</string>
+    <string name="deuda_salida">Favor de pasar a una plataforma de Deuda</string>
+    <string name="capital_salida">Favor de pasar a una plataforma de Capital</string>
+
+    <string name="proyecto_pregunta">¿Tienes un proyecto?</string>
+    <string name="inf_proyecto_no_salida">"Uno de los principales objetivos del INADEM es apoyar a las MIPYMEs y emprendedores de alto impacto, es por ello que a través del Programa de Desarrollo del Ecosistema de Capital Emprendedor ha aprovado la coinversión en 37 fondos de inversión, para que a su vez inviertan en alededor de 460 empresas de alto impacto, así como también está apoyado el desarrollo del ecosistema de Fondo Colectivo (Crowdfunding) en sus diferentes vertientes: Deuda, Capital,Recompenas y Donación.Para mayor inforación, favor de pasar con el staff de INADEM."</string>
+
+    <string name="tu_proyecto_pregunta">¿Tú proyecto está en ?</string>
+    <string name="arrancando">Arrancando</string>
+    <string name="crecimiento">Crecimiento</string>
+    <string name="emprender">Quiero emprender</string>
+
+    <string name="sector_proyecto_pregunta">¿En qué sector se encuentra tu proyecto?</string>
+    <string name="como_proyecto_pregunta">¿Cómo es tu proyecto?</string>
+    
+    <string name="inf_altoimpacto">Definición de que es alto impacto</string>
+    <string name="inf_tradicional">Definición de que es tradicional</string>
+    <string name="tradicional">Tradicional</string>
+    <string name="alto_impacto">Alto impacto</string>
+    <string name="necesitas_pregunta">¿Qué necesitas?</string>
+
+    <string name="necitas_p1">Necesito recursos y estoy dispuesto a pagar un rendimiento.</string>
+    <string name="necitas_p2">Necesito recursos y estoy dispuesto a ceder acciones.</string>
+    <string name="necitas_p3">Necesito recursos y ofrezco alguna recompensa.</string>
+    <string name="necitas_p4">Necesito recursos para llevar a cabo una iniciativa sin fines de lucro.</string>
+
+    <string name="dispuesto_pregunta">¿Estás dispuesto a?</string>
+
+    <string name="dispuesto_p1">Recibir recursos de inversionistas a cambio de un % accionario de tu proyecto</string>
+    <string name="dispuesto_p2">Recibir recursos de un inversionista</string>
+    <string name="dispuesto_p3">Recibir recursos y a pagar un interes por el mismo</string>
+    
+    <string name="salida_texto">Te gustaría conocer cuáles son los beneficios de tener capital de un inversionista u otras alternativas de un financiamiento como  el Crowfunding de Donaciones y Recompensas pasa con alguien del staff de INADEM</string>
+    <string name="salida_invercionista">Favor de pasar con un inversionista o con una Plataforma de Capital</string>
+
+    <array name="rango_edades">
+        <item>"menos de 19 años"</item>
+        <item>"19 - 25 años"</item>
+        <item>"26 - 30 años"</item>
+        <item>"31 - 40 años"</item>
+        <item>"41 - 50 años"</item>
+        <item>"mas de 50 años"</item>
+    </array>
+
+    <array name="sectores">
+        <item>"Salud"</item>
+        <item>"Energía"</item>
+        <item>"Educación"</item>
+        <item>"Agroindustrial"</item>
+        <item>"Alimentos"</item>
+        <item>"Proyecto Social"</item>
+        <item>"Construcción"</item>
+    </array>
+
+</resources>
